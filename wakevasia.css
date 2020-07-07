@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(45deg, #652b97, #430b73);
+    padding: 1vh;
+}
+
+h1 {
+    width: 100%;
+    height: 7vh;
+    font-family: sans-serif;
+    font-size: 7vh;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vh;
+    text-shadow: 1px 1px 2.5vh yellow;
+}
+.realclock , .alarmclockblock {
+    position: fixed;
+    top: 20vh;
+    left: 15%;
+    width: 25%;
+    padding: 2vh;
+    background-color: yellow;
+    color: #430b73;
+    font-weight: bold;
+    font-size: 4vh;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 1vh;
+}
+.realclock {
+    height: 15vh;
+}
+.realtime {
+    font-size: 8vh;
+}
+.alarmclockblock {
+    left: 55%;
+    width: 35%;
+}
+.alarmclock , .alarmmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+.alarmmenu {
+    margin-top: 5vh;
+}
+.buildalarmclock , .allstops , .allrem , .onalarm , .offalarm , .remalarm {
+    display: block;
+    background-color: green;
+    color: yellow;
+    height: 4vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    border-radius: 1vh;
+}
+.allstops , .onalarm {
+    background: linear-gradient(90deg, green, #aaaaaa, #aaaaaa);
+}
+.offalarm {
+    background-color: #220b94;
+}
+.allrem , .remalarm {
+    background-color: red;
+}
+.notorder {
+    background: linear-gradient(90deg, #aaaaaa, #aaaaaa, red);
+}
+.tablo {
+    width: 25vh;
+    height: 5vh;
+    text-align: center;
+    color: yellow;
+    font-size: 4vh;
+    font-weight: bold;
+    line-height: 5.5vh;
+    background-color: #430b73;
+}
+.tablo:hover {
+    color: #00ff00;
+}
